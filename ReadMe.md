@@ -5,7 +5,7 @@ Example code from [Head First Design Patterns second edition](https://www.piter.
 
 ## Patterns Implemented
 
-- [ ] [Strategy](chapter01_strategy)
+- [x] [Strategy](chapter01_strategy)
 - [ ] [Observer](chapter02_observer)
 - [ ] [Decorator](chapter03_decorator)
 - [ ] [Factory Method](chapter04_factory)
