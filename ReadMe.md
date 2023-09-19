@@ -20,6 +20,6 @@ Example code from [Head First Design Patterns second edition](https://www.piter.
 - [ ] [Iterator](chapter09_iterator_composite)
 - [ ] [Composite](chapter09_iterator_composite)
 - [ ] [State](chapter10_state)
-- [ ] [Proxy] (chapter11_proxy)
+- [ ] [Proxy](chapter11_proxy)
 - [ ] [Model View Controller (MVC)](chapter12_compound)
 - [ ] [Manager](chapter14_leftover) _(Bonus Pattern)_
