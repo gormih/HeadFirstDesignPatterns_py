@@ -1,5 +1,8 @@
 
-<img alt="Head First Design Patterns Second Edition" src="images\HeadFirstDesignPatterns.jpg" width="200"/>Example code from [Head First Design Patterns second edition](https://www.piter.com/collection/all/product/head-first-patterny-proektirovaniya-2-e-izdanie) translated to python to help me understand and memorise the patterns.
+<img alt="Head First Design Patterns Second Edition" src="images\HeadFirstDesignPatterns.jpg" width="200"/>
+
+Example code from [Head First Design Patterns second edition](https://www.piter.com/collection/all/product/head-first-patterny-proektirovaniya-2-e-izdanie) translated to python to help me understand and memorise the patterns.
+
 ## Patterns Implemented
 
 - [ ] [Strategy](chapter01_strategy)
