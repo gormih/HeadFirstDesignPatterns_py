@@ -1,4 +1,5 @@
-from typing import Protocol, Union
+from abc import ABC
+from typing import Protocol
 
 
 class FlyBehavior(Protocol):
@@ -44,12 +45,12 @@ class Squeak(QuackBehavior):
 
 
 # Duck Base class
-class Duck(Protocol):
+class Duck(ABC):
     _fly_behavior_: FlyBehavior
     _quack_behavior_: QuackBehavior
 
     @property
-    def fly_behavior(self) -> Union[None, FlyBehavior]:
+    def fly_behavior(self) -> FlyBehavior:
         return self._fly_behavior_
 
     @fly_behavior.setter
@@ -57,7 +58,7 @@ class Duck(Protocol):
         self._fly_behavior_ = fly_behavior
 
     @property
-    def quack_behavior(self) -> Union[None, QuackBehavior]:
+    def quack_behavior(self) -> QuackBehavior:
         return self._quack_behavior_
 
     @quack_behavior.setter
