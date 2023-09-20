@@ -1,13 +1,15 @@
-from abc import ABC
+from abc import ABC, abstractmethod
 from typing import Protocol
 
 
 class FlyBehavior(Protocol):
+    @abstractmethod
     def fly(self) -> None:
         pass
 
 
 class QuackBehavior(Protocol):
+    @abstractmethod
     def quack(self) -> None:
         pass
 
