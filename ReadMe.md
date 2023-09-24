@@ -7,7 +7,7 @@ Example code from [Head First Design Patterns second edition](https://www.piter.
 
 - [x] [Strategy](chapter01_strategy)
 - [x] [Observer](chapter02_observer)
-- [ ] [Decorator](chapter03_decorator)
+- [x] [Decorator](chapter03_decorator)
 - [ ] [Factory Method](chapter04_factory)
 - [ ] [Simple Factory](chapter04_factory)
 - [ ] [Abstract Factory](chapter04_factory)
